@@ -1,0 +1,29 @@
+.search-input-container {
+  display: flex;
+  margin-top: 20px;
+  margin-left: 40px;
+}
+.search-icon {
+  background-color: #272727;
+  color: white;
+  margin-top: 20px;
+}
+.search-input {
+  background-color: transparent;
+  color: white;
+  width: 300px;
+  margin-top: 20px;
+  margin-left: 40px;
+}
+.jobCards-container {
+  background-color: black;
+  display: flex;
+}
+.retry-button {
+  background-color: blue;
+  color: white;
+}
+.profile-filters {
+  display: flex;
+  flex-direction: column;
+}

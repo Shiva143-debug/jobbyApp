@@ -1,0 +1,22 @@
+.similarCardContainer {
+  background-color: #272727;
+  width: 400px;
+  margin: 10px;
+  border-radius: 8px;
+  padding-left: 20px;
+}
+.description {
+  color: white;
+  font-size: 20px;
+}
+.job-description {
+  color: white;
+  max-width: 300px;
+}
+.location-employType {
+  display: flex;
+  color: white;
+}
+.location {
+  padding-right: 10px;
+}

@@ -1,0 +1,21 @@
+.name {
+  color: #4f46e5;
+  font-size: 18px;
+}
+.profileCardContainer {
+  background-image: url('https://assets.ccbp.in/frontend/react-js/profile-bg.png');
+  border-radius: 8px;
+  margin: 40px;
+  margin-top: 60px;
+  width: 200px;
+  height: 180px;
+  padding: 10px;
+}
+.shortBio {
+  color: #64748b;
+  padding-bottom: 10px;
+}
+.retry-button {
+  background-color: blue;
+  color: white;
+}

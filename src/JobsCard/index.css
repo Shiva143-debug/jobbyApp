@@ -1,0 +1,73 @@
+.job-item {
+  list-style-type: none;
+}
+.job-container {
+  background-color: #272727;
+  margin: 5px;
+  border-radius: 8px;
+  width: 600px;
+}
+.image {
+  width: 50px;
+  height: 50px;
+  margin-right: 20px;
+  margin-top: 20px;
+  margin-left: 20px;
+}
+.image-title {
+  display: flex;
+}
+.title-rating {
+  color: white;
+}
+.title {
+  font-size: 20px;
+}
+.location-employmentType {
+  display: flex;
+  color: white;
+  padding-left: 40px;
+}
+.location {
+  padding-right: 10px;
+}
+.hr {
+  color: white;
+  width: 90%;
+}
+.Description {
+  color: white;
+  padding-left: 40px;
+  padding-top: 10px;
+  font-size: 20px;
+}
+.jobDescription {
+  color: white;
+  padding-left: 40px;
+  padding-top: 10px;
+  font-size: 16px;
+  max-width: 600px;
+  padding-bottom: 20px;
+}
+.location-employmentType-package {
+  display: flex;
+  justify-content: space-between;
+}
+.packagePerAnnum {
+  color: white;
+  padding-right: 10px;
+}
+.star {
+  color: #fbbf24;
+  margin-top: 20px;
+  margin-right: 5px;
+}
+.star-rating {
+  display: flex;
+}
+.location-img {
+  margin-top: 20px;
+}
+.briefCaseImg {
+  margin-top: 20px;
+}

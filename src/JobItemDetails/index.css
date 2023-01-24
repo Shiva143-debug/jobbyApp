@@ -1,0 +1,68 @@
+.color {
+  color: white;
+}
+.job-itemDetails {
+  background-color: black;
+  height: 400vh;
+  background-size: cover;
+}
+.jobCard-container {
+  margin-left: 40px;
+  width: 900px;
+  margin-top: 30px;
+  background-color: #272727;
+  border-radius: 8px;
+}
+.jobDescription {
+  max-width: 800px;
+}
+.packagePerAnnum {
+  margin-right: 50px;
+}
+.image {
+  margin-left: 40px;
+}
+.skills {
+  color: white;
+  padding-left: 40px;
+  font-size: 18px;
+}
+.detailsContainer {
+  background-color: black;
+}
+.skills-list-container {
+  display: flex;
+  flex-wrap: wrap;
+  margin-right: 20px;
+}
+.life {
+  color: white;
+  font-size: 18px;
+  padding-left: 40px;
+}
+.life-description {
+  color: white;
+  padding-left: 40px;
+  max-width: 500px;
+}
+.life-container {
+  display: flex;
+  justify-content: space-between;
+}
+.life-at-company-image {
+  margin-right: 20px;
+  margin-bottom: 20px;
+}
+.similar-jobs-heading {
+  color: white;
+  padding-left: 40px;
+  font-size: 24px;
+}
+.similar-Jobs-list {
+  display: flex;
+  flex-wrap: wrap;
+}
+.description-visit {
+  display: flex;
+  justify-content: space-between;
+}
