@@ -3,7 +3,7 @@
 }
 .job-itemDetails {
   background-color: black;
-  height: 400vh;
+  height: 100%;
   background-size: cover;
 }
 .jobCard-container {
@@ -13,6 +13,14 @@
   background-color: #272727;
   border-radius: 8px;
 }
+
+@media (max-width:768px){
+  .jobCard-container {
+    width: 90vw;
+    margin-left: 20px;
+  }
+}
+
 .jobDescription {
   max-width: 800px;
 }
@@ -35,6 +43,7 @@
   flex-wrap: wrap;
   margin-right: 20px;
 }
+
 .life {
   color: white;
   font-size: 18px;
@@ -52,6 +61,13 @@
 .life-at-company-image {
   margin-right: 20px;
   margin-bottom: 20px;
+}
+@media (max-width:768px) {
+  .life-at-company-image {
+    width:100px;
+    height: 200px;
+    margin-top: 10px;
+  }
 }
 .similar-jobs-heading {
   color: white;

@@ -114,7 +114,7 @@ class JobItemDetails extends Component {
       employmentType,
       companyWebsiteUrl,
       jobDescription,
-      CompanyLogoUrl,
+      companyLogoUrl,
       location,
       packagePerAnnum,
       rating,
@@ -132,7 +132,7 @@ class JobItemDetails extends Component {
         <div className="jobCard-container">
           <div className="image-title">
             <img
-              src={CompanyLogoUrl}
+              src={companyLogoUrl}
               alt="job details company logo"
               className="image"
             />

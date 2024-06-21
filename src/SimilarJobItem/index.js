@@ -6,7 +6,7 @@ const SimilarJobItem = props => {
   const {
     employmentType,
     jobDescription,
-    CompanyLogoUrl,
+    companyLogoUrl,
     location,
 
     rating,
@@ -16,7 +16,7 @@ const SimilarJobItem = props => {
     <div className="similarCardContainer">
       <div className="image-title">
         <img
-          src={CompanyLogoUrl}
+          src={companyLogoUrl}
           alt="similar job company logo"
           className="image"
         />

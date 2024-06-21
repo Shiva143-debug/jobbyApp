@@ -1,11 +1,19 @@
 .job-item {
   list-style-type: none;
+  text-align: none;
+  
 }
 .job-container {
   background-color: #272727;
   margin: 5px;
   border-radius: 8px;
-  width: 600px;
+  width: 60vw;
+}
+@media (max-width:768px) {
+  .job-container {
+    margin-left: 2px;
+    width: 80vw;
+  }
 }
 .image {
   width: 50px;
@@ -16,12 +24,16 @@
 }
 .image-title {
   display: flex;
+  
 }
 .title-rating {
   color: white;
+  text-decoration: none;
+  text-decoration: none !important
 }
 .title {
   font-size: 20px;
+  text-decoration: none !important;
 }
 .location-employmentType {
   display: flex;

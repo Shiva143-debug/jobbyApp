@@ -8,6 +8,7 @@
 .description {
   color: white;
   font-size: 20px;
+  text-decoration: none;
 }
 .job-description {
   color: white;
@@ -20,3 +21,9 @@
 .location {
   padding-right: 10px;
 }
+.star-rating{
+  margin-top: -20px;
+}
+/* .star{
+  padding-top:50px;
+} */

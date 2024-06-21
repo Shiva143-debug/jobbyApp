@@ -47,16 +47,19 @@
 }
 .username-input-field {
   width: 300px;
+  height: 30px;
   background-color: transparent;
   color: white;
   border-color: white;
+  border-radius: 4px;
 }
 .password-input-field {
   width: 300px;
-
+  height: 30px;
   background-color: transparent;
   color: white;
   border-color: white;
+  border-radius: 4px;
 }
 .web-image {
   margin-top: 10px;

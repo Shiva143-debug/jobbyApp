@@ -61,8 +61,8 @@ class ProfileCard extends Component {
     return (
       <div className="profileCardContainer">
         <img src={profileImageUrl} alt="profile" />
-        <h1 className="name">{name}</h1>
-        <p className="shortBio">{shortBio}</p>
+        <h1 className="name">Shiva</h1>
+        <p className="shortBio">Full stack Developer</p>
       </div>
     )
   }
@@ -96,7 +96,7 @@ class ProfileCard extends Component {
 
   render() {
     return (
-      <div>
+      <div className="profile-card">
         {this.renderProfileCardsView()}
         <hr className="hr" />
 

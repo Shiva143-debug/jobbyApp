@@ -1,19 +1,38 @@
 .search-input-container {
+  position: relative;
   display: flex;
-  margin-top: 20px;
-  margin-left: 40px;
+  align-items: center;
+  margin-top: 10px;
+  margin-left: 50px;
+  width: 50%;
+ 
 }
-.search-icon {
-  background-color: #272727;
-  color: white;
-  margin-top: 20px;
+
+@media (max-width:768px) {
+  .search-input-container {
+    width:70%;
+    margin-left: 50px;
+  }
 }
+
 .search-input {
-  background-color: transparent;
-  color: white;
-  width: 300px;
-  margin-top: 20px;
-  margin-left: 40px;
+  width: 100%;
+  padding: 10px 40px 10px 10px; /* Add padding to the right for the icon */
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  background-color: black;
+  color:white
+}
+
+.search-icon {
+  position: absolute;
+  right: 10px; /* Adjust this value to properly position the icon */
+  cursor: pointer;
+  color: #ccc;
+}
+
+.profile-filters{
+  display: flex;
 }
 .jobCards-container {
   background-color: black;
@@ -26,4 +45,9 @@
 .profile-filters {
   display: flex;
   flex-direction: column;
+}
+@media (max-width:768px) {
+  .profile-filters {
+    display: none;
+  }
 }

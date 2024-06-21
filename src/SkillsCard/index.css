@@ -11,3 +11,10 @@
   margin: 20px;
   margin-right: 120px;
 }
+
+@media (max-width:768px) {
+  .s-container {
+    display: flex;
+    flex-wrap: wrap;
+  }
+}
